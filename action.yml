@@ -1,0 +1,14 @@
+name: "My first action file "
+description: "Practice lab for GitHub actions"
+author: Rukmani 
+inputs:
+  myInput:
+    description: "Greeting to use"
+    required: true
+    default: "Awesome Rukmani"
+outputs:
+  myOutput:
+    description: "total memory"
+runs:
+  using: "docker"
+  image: "Dockerfile"
